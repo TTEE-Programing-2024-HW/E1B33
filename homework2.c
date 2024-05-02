@@ -3,32 +3,71 @@
 int main(void){
 	printf("-------------------\n");
 	printf("|                 |\n");
-	printf("|     ç³»æ‰€:é›»æ©Ÿç³» |\n");
+	printf("|     ¨t©Ò:¹q¾÷¨t |\n");
 	printf("|                 |\n");
-	printf("|     ç­ç´š:E1B    |\n");
+	printf("|     ¯Z¯Å:E1B    |\n");
 	printf("|                 |\n");
-	printf("|     åº§è™Ÿ:33     |\n");
+	printf("|     ®y¸¹:33     |\n");
 	printf("|                 |\n");
-	printf("|     å§“å:å¼µå®¸ç‘‹ |\n");
+	printf("|     ©m¦W:±i®fŞ³ |\n");
 	printf("|                 |\n");
 	printf("|                 |\n");
-	printf("|    ç¨‹å¼è¨­è¨ˆHW1  |\n");
+	printf("|    µ{¦¡³]­pHW2  |\n");
 	printf("|                 |\n");
 	printf("|                 |\n");
 	printf("|                 |\n");
 	printf("|                 |\n");
 	printf("|    2024/4/1     |\n");
 	printf("-------------------\n");
-	system("pause");//è¢å¹•ç•«é¢æš«åœï¼Œç­‰å¾…ä½¿ç”¨è€…æŒ‰ä»»æ„æŒ‰éµ 
-	system("cls");//æ¸…é™¤ç•«é¢ 
-	int password;
-	printf("è¼¸å…¥4å€‹æ•¸å­—å¯†ç¢¼:");
+	system("pause");//¿Ã¹õµe­±¼È°±¡Aµ¥«İ¨Ï¥ÎªÌ«ö¥ô·N«öÁä 
+	system("cls");//²M°£µe­± 
+	int password,count,i,j,n;
+	printf("¿é¤J4­Ó¼Æ¦r±K½X:");
 	scanf("%d",&password);
-	if(password!=2024){
-		printf("éŒ¯èª¤");
-		scanf("%d,&password);
-		
-		
+	for(;;){
+		if(count==2){
+			system("pause");
+			return 0;
+		}
+		if(password==2024){
+			break;
+		}else{
+		printf("¿ù»~¦A¿é¤J¤@¦¸±K½X");
+		scanf("%d",&password);
+		count++;
 	}
 	}
+	system("pause");
+    system("cls");//²M°£µe­±
+    printf("------------------------\n");
+    printf("| a. µe¥Xª½¨¤¤T¨¤§Î    |\n");
+    printf("| b. Åã¥Ü­¼ªkªí        |\n");
+    printf("| c. µ²§ô              |\n");
+    printf("------------------------\n");
+    system("pause");//¿Ã¹õµe­±¼È°±¡Aµ¥«İ¨Ï¥ÎªÌ«ö¥ô·N«öÁä 
+	system("cls");
+	char ch,num1;
+	printf("¿é¤J¦r¤¸");
+	scanf(" %c",&ch);
+	if(ch=='A'||ch=='a'){
+		system("cls");//²M°£µe­±
+		printf("¿é¤Ja¨ìnªº¦r¤¸");
+		scanf(" %c",&num1);
+		for(i=0;i<=num1-'a'+1;i++){
+			for(j=0;num1-'a'-i;j++){
+			}
+			for
+		}
+		if(ch>'n'){
+			printf("­«·s¿é¤J");
+			scanf(" %c",num1);
+			
+		}
+	}
+	if(ch=='B'||ch=='b'){
+		printf("¿é¤J1-9ªº¾ã¼Æ");
+		scanf("%d",&n);
+		
+	}
+}
 	
