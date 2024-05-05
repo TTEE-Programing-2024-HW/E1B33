@@ -17,11 +17,11 @@ int main(void){
 	printf("|                 |\n");
 	printf("|                 |\n");
 	printf("|                 |\n");
-	printf("|    2024/4/1     |\n");
+	printf("|    2024/5/4     |\n");
 	printf("-------------------\n");
 	system("pause");//螢幕畫面暫停，等待使用者按任意按鍵 
 	system("cls");//清除畫面 
-	int password,count,i,j,n;
+	int password,count,i,j,n,o,p,f,g,k;
 	printf("輸入4個數字密碼:");
 	scanf("%d",&password);
 	for(;;){
@@ -55,9 +55,16 @@ int main(void){
 		scanf(" %c",&num1);
 		for(i=0;i<=num1-'a'+1;i++){
 			for(j=0;num1-'a'-i;j++){
+			 printf("");
 			}
-			for
+			for(j=0,k=0;j<=1;j++){
+				printf("%c",num1-i+k);
+				k++;
+			}
+			printf("\n");
+			
 		}
+		ch=getch();
 		if(ch>'n'){
 			printf("重新輸入");
 			scanf(" %c",num1);
@@ -67,6 +74,32 @@ int main(void){
 	if(ch=='B'||ch=='b'){
 		printf("輸入1-9的整數");
 		scanf("%d",&n);
+		if(n>=1||n<=9){
+			for(o=1;o<=n;o++){
+				for(p=1;p<=o;p++){
+					printf("%2d*%d=%2d",o,p,o*p);
+				}
+				printf("\n");
+			}
+		}else{
+			printf("輸入錯誤");
+		}
+		ch = getch();
+	}
+	if(ch=='C'||ch=='c'){
+		printf("continue?(y/n)");
+		scanf(" %ch",&g);
+		if(g=='Y'||g=='y'){
+			
+			system("CLS");
+		}
+		else if(g=='N'||g=='n'){
+			system("pause");
+			return 0;
+		}else{
+			printf("錯誤重新輸入");
+		}
+		
 		
 	}
 }
