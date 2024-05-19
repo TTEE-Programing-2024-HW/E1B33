@@ -78,13 +78,14 @@ int main(void){
 		printf("| d. Exit                       \n|");
 		printf("---------------------------------\n");
 		ch=getch();
-		switch (ch)
+		switch (ch){
+		
 		case 'a':
 		case 'A':
 			choise_a(seat);
 			break;
-		case 'b':
-		case 'B':
+		case 'd':
+		case 'D':
 			printf("Continue?");
 			scanf(" %c",&g);
 			if(g=='Y'||g=='y'){
@@ -100,6 +101,8 @@ int main(void){
 			printf("¿ù»~­«·s¿é¤J");
 		}
 }
+}
+}
 void choise_a(char seat[10][10]){
 	for(i=0;i<10;i++){
 		for(j=0;j<10;j++){
@@ -109,5 +112,8 @@ void choise_a(char seat[10][10]){
 	}
 	
 }
+
+
+
 	
 		
