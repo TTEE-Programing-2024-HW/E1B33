@@ -84,6 +84,9 @@ int main(void){
 		case 'A':
 			choise_a(seat);
 			break;
+		case 'b':
+		case 'B':
+			
 		case 'd':
 		case 'D':
 			printf("Continue?");
