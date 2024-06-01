@@ -22,6 +22,7 @@ int main(void){
 	system("pause");//螢幕畫面暫停，等待使用者按任意按鍵 
 	system("cls");//清除畫面 
 		int password,count;
+		char ch,g;
 			printf("輸入4個數字密碼:");
 	scanf("%d",&password);
 	for(;;){
@@ -39,4 +40,17 @@ int main(void){
 }
 	system("pause");
 	system("cls");
+	for(;;){
+		printf("--------[Grade System]---------\n");
+		printf("| a. Enter student grades      \n|");
+		printf("| b. Display student grades    \n|");
+		printf("| c. Search for student grades \n|");
+		printf("| d. Grade ranking             \n|");
+		printf("| d. Exit                      \n|");
+		printf("---------------------------------\n");
+		ch=getch();
+			switch (ch){
+				
+			}
+}
 }
