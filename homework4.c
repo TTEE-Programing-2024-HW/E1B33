@@ -62,7 +62,7 @@ int main(void){
 		printf("| b. Display student grades    \n|");
 		printf("| c. Search for student grades \n|");
 		printf("| d. Grade ranking             \n|");
-		printf("| d. Exit                      \n|");
+		printf("| e. Exit                      \n|");
 		printf("---------------------------------\n");
         	ch=getch();
 			switch (ch){
@@ -84,11 +84,20 @@ int main(void){
 			break;
 		case 'E':
 		case 'e':	
-		    if(choise_e==0){
-		    	return 0;
-			}else{
-				break;
-			}
+		   printf("Continue?");
+			scanf(" %c",&g);
+			if(g=='Y'||g=='y'){
+			
+			system("CLS");
+			break;
+		}
+		else if(g=='N'||g=='n'){
+			system("pause");
+			return 0;
+			
+}else{
+			printf("¿ù»~­«·s¿é¤J");
+		}
 			
 		}
 }
