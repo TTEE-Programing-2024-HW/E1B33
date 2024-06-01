@@ -122,7 +122,7 @@ void choise_a(void){
 				break;
 			}else{
 				printf("wrong(0-100)");
-				fflsuh(stdin);
+				fflush(stdin);
 				scanf("%d",&student[temp+i].math);
 				continue;
 			}
@@ -132,7 +132,7 @@ void choise_a(void){
 				break;
 			}else{
 				printf("wrong(0-100)");
-				fflsuh(stdin);
+				fflush(stdin);
 				scanf("%d",&student[temp+i].phy);
 				continue;}
 			}
@@ -141,7 +141,7 @@ void choise_a(void){
 				break;
 			}else{
 				printf("wrong(0-100)");
-				fflsuh(stdin);
+				fflush(stdin);
 				scanf("%d",&student[temp+i].eng);
 				continue;}
 			}
