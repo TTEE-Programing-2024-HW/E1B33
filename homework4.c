@@ -64,7 +64,7 @@ int main(void){
 		printf("| d. Grade ranking             \n|");
 		printf("| d. Exit                      \n|");
 		printf("---------------------------------\n");
-		ch=getch();
+        	ch=getch();
 			switch (ch){
 		case 'a':
 		case 'A':
@@ -166,6 +166,7 @@ void choise_a(void){
 		}
 	}
 }
+}
 void choise_b(void){
 	int i;
 	char ch;
@@ -176,5 +177,12 @@ void choise_b(void){
 	
 	
 }
+void choise_c(void){
+	
 }
+void choise_d(void){
+	
+}
+ 
+
 
