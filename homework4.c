@@ -182,7 +182,8 @@ void choise_b(void){
 	printf("¦W¤l id math phy eng avg_grade\n");
 	for(i=0;i<temp;i++){
 		printf("%-6s %-6s %3d %3d %3d %3.1f\n");
-	}
+	
+	} 
 	
 	
 }
